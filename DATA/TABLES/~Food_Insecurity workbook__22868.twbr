@@ -1,0 +1,555 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv (Multiple Connections)' inline='true' name='federated.0ak627011tr63q1e9gkjn064tamg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Uganda_Karamoja_District_Crop_Yield_Population' name='textscan.0ub70re0cv770r1cchx281jnwcf7'>
+            <connection class='textscan' directory='C:/Users/jomos/OneDrive/Documents/Independent_project-2/DATA/TABLES' filename='Uganda_Karamoja_District_Crop_Yield_Population.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='Uganda_Karamoja_Subcounty_Crop_Yield_Population' name='textscan.1ibpu1f1c4jo7v18yt9qm1ctr6c1'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:/Users/jomos/OneDrive/Documents/Independent_project-2/DATA/TABLES/Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv' dataRefreshTime='' directory='C:/Users/jomos/OneDrive/Documents/Independent_project-2/DATA/TABLES' filename='C:/Users/jomos/AppData/Local/Temp/TableauTemp/0p3inso0v0snki1dlx1y100giktz/Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1ibpu1f1c4jo7v18yt9qm1ctr6c1' name='Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv' table='[C:\Users\jomos\OneDrive\Documents\Independent_project-2\DATA\TABLES\Uganda_Karamoja_Subcounty_Crop_Yield_Population#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:M53:no:A1:M53:1' header='yes' locale='en_KE' separator=','>
+            <column datatype='integer' name='OBJECTID' ordinal='0' />
+            <column datatype='string' name='SUBCOUNTY_NAME' ordinal='1' />
+            <column datatype='string' name='DISTRICT_NAME' ordinal='2' />
+            <column datatype='integer' name='POP' ordinal='3' />
+            <column datatype='integer' name='Area' ordinal='4' />
+            <column datatype='string' name='Karamoja' ordinal='5' />
+            <column datatype='real' name='S_Yield_Ha' ordinal='6' />
+            <column datatype='real' name='M_Yield_Ha' ordinal='7' />
+            <column datatype='real' name='Crop_Area_Ha' ordinal='8' />
+            <column datatype='real' name='S_Area_Ha' ordinal='9' />
+            <column datatype='real' name='M_Area_Ha' ordinal='10' />
+            <column datatype='real' name='S_Prod_Tot' ordinal='11' />
+            <column datatype='real' name='M_Prod_Tot' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Ksh&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M53:no:A1:M53:1&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_KE&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OBJECTID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OBJECTID]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>OBJECTID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUBCOUNTY_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUBCOUNTY_NAME]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>SUBCOUNTY_NAME</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DISTRICT_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DISTRICT_NAME]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>DISTRICT_NAME</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POP]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>POP</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Area]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>Area</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Karamoja</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Karamoja]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>Karamoja</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_Yield_Ha</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S_Yield_Ha]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>S_Yield_Ha</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>M_Yield_Ha</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[M_Yield_Ha]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>M_Yield_Ha</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crop_Area_Ha</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Crop_Area_Ha]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>Crop_Area_Ha</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_Area_Ha</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S_Area_Ha]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>S_Area_Ha</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>M_Area_Ha</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[M_Area_Ha]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>M_Area_Ha</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S_Prod_Tot</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[S_Prod_Tot]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>S_Prod_Tot</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>M_Prod_Tot</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[M_Prod_Tot]</local-name>
+            <parent-name>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv]</parent-name>
+            <remote-alias>M_Prod_Tot</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Crop Area Ha' datatype='real' name='[Crop_Area_Ha]' role='measure' type='quantitative' />
+      <column datatype='string' name='[DISTRICT_NAME]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' hidden='true' name='[Karamoja]' role='dimension' type='nominal' />
+      <column caption='Maize Area (Ha)' datatype='real' name='[M_Area_Ha]' role='measure' type='quantitative' />
+      <column caption='Maize Productivity Total(Kg)' datatype='real' name='[M_Prod_Tot]' role='measure' type='quantitative' />
+      <column caption='Maize yield (Kg/ha)' datatype='real' name='[M_Yield_Ha]' role='measure' type='quantitative' />
+      <column caption='Objectid' datatype='integer' hidden='true' name='[OBJECTID]' role='measure' type='quantitative' />
+      <column caption='Total Population' datatype='integer' name='[POP]' role='measure' type='quantitative' />
+      <column datatype='string' name='[SUBCOUNTY_NAME]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Sorghum Area (Ha)' datatype='real' name='[S_Area_Ha]' role='measure' type='quantitative' />
+      <column caption='Sorghum productivity(Kg)' datatype='real' name='[S_Prod_Tot]' role='measure' type='quantitative' />
+      <column caption='Sorghum yield (Kg/ha)' datatype='real' name='[S_Yield_Ha]' role='measure' type='quantitative' />
+      <column caption='Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv' datatype='table' name='[__tableau_internal_object_id__].[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]' role='measure' type='quantitative' />
+      <column-instance column='[DISTRICT_NAME]' derivation='None' name='[none:DISTRICT_NAME:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/jomos/AppData/Local/Temp/TableauTemp/#TableauTemp_0cy8qkw117jxlo1didk4301hauh0.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/29/2025 05:14:16 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>SUBCOUNTY_NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SUBCOUNTY_NAME]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SUBCOUNTY_NAME</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DISTRICT_NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[DISTRICT_NAME]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DISTRICT_NAME</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POP</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POP]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POP</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Area</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Area]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Area</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>S_Yield_Ha</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[S_Yield_Ha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>S_Yield_Ha</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>M_Yield_Ha</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[M_Yield_Ha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>M_Yield_Ha</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Crop_Area_Ha</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Crop_Area_Ha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Crop_Area_Ha</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>S_Area_Ha</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[S_Area_Ha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>S_Area_Ha</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>M_Area_Ha</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[M_Area_Ha]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>M_Area_Ha</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>S_Prod_Tot</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[S_Prod_Tot]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>S_Prod_Tot</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>M_Prod_Tot</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[M_Prod_Tot]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>M_Prod_Tot</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='52' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:DISTRICT_NAME:nk]' palette='brown_10_0' type='palette'>
+            <map to='#9f3632'>
+              <bucket>&quot;KAABONG&quot;</bucket>
+            </map>
+            <map to='#b44f35'>
+              <bucket>&quot;NAKAPIRIPIRIT&quot;</bucket>
+            </map>
+            <map to='#c26c43'>
+              <bucket>&quot;ABIM&quot;</bucket>
+            </map>
+            <map to='#d18954'>
+              <bucket>&quot;KOTIDO&quot;</bucket>
+            </map>
+            <map to='#e1a260'>
+              <bucket>&quot;NAPAK&quot;</bucket>
+            </map>
+            <map to='#eabe83'>
+              <bucket>&quot;MOROTO&quot;</bucket>
+            </map>
+            <map to='#eedbbd'>
+              <bucket>&quot;AMUDAT&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Uganda&quot;' />
+        <semantic-value key='[County].[Name]' value='%null%' />
+        <semantic-value key='[State].[Name]' value='&quot;Abim&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv' id='Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv_F8032A15128E47C0A74D4A4785691506'>
+            <properties context=''>
+              <relation connection='textscan.1ibpu1f1c4jo7v18yt9qm1ctr6c1' name='Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv' table='[C:\Users\jomos\OneDrive\Documents\Independent_project-2\DATA\TABLES\Uganda_Karamoja_Subcounty_Crop_Yield_Population#csv]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:M53:no:A1:M53:1' header='yes' locale='en_KE' separator=','>
+                  <column datatype='integer' name='OBJECTID' ordinal='0' />
+                  <column datatype='string' name='SUBCOUNTY_NAME' ordinal='1' />
+                  <column datatype='string' name='DISTRICT_NAME' ordinal='2' />
+                  <column datatype='integer' name='POP' ordinal='3' />
+                  <column datatype='integer' name='Area' ordinal='4' />
+                  <column datatype='string' name='Karamoja' ordinal='5' />
+                  <column datatype='real' name='S_Yield_Ha' ordinal='6' />
+                  <column datatype='real' name='M_Yield_Ha' ordinal='7' />
+                  <column datatype='real' name='Crop_Area_Ha' ordinal='8' />
+                  <column datatype='real' name='S_Area_Ha' ordinal='9' />
+                  <column datatype='real' name='M_Area_Ha' ordinal='10' />
+                  <column datatype='real' name='S_Prod_Tot' ordinal='11' />
+                  <column datatype='real' name='M_Prod_Tot' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Districts'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Uganda_Karamoja_Subcounty_Crop_Yield_Population.csv (Multiple Connections)' name='federated.0ak627011tr63q1e9gkjn064tamg' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0ak627011tr63q1e9gkjn064tamg'>
+            <column datatype='string' name='[DISTRICT_NAME]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Maize Productivity Total(Kg)' datatype='real' name='[M_Prod_Tot]' role='measure' type='quantitative' />
+            <column caption='Sorghum productivity(Kg)' datatype='real' name='[S_Prod_Tot]' role='measure' type='quantitative' />
+            <column-instance column='[DISTRICT_NAME]' derivation='None' name='[none:DISTRICT_NAME:nk]' pivot='key' type='nominal' />
+            <column-instance column='[M_Prod_Tot]' derivation='Sum' name='[sum:M_Prod_Tot:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[S_Prod_Tot]' derivation='Sum' name='[sum:S_Prod_Tot:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.0ak627011tr63q1e9gkjn064tamg].[sum:S_Prod_Tot:qk]' />
+              <size column='[federated.0ak627011tr63q1e9gkjn064tamg].[sum:M_Prod_Tot:qk]' />
+              <lod column='[federated.0ak627011tr63q1e9gkjn064tamg].[none:DISTRICT_NAME:nk]' />
+              <geometry column='[federated.0ak627011tr63q1e9gkjn064tamg].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0ak627011tr63q1e9gkjn064tamg].[Latitude (generated)]</rows>
+        <cols>[federated.0ak627011tr63q1e9gkjn064tamg].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{B7A2538E-D949-46EA-897D-593518994A9F}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='37'>
+    <window class='worksheet' maximized='true' name='Districts'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0ak627011tr63q1e9gkjn064tamg].[sum:M_Prod_Tot:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.0ak627011tr63q1e9gkjn064tamg].[sum:S_Prod_Tot:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B3C1F9F8-B488-429C-8B09-A62A8F10F00B}' />
+    </window>
+  </windows>
+</workbook>
