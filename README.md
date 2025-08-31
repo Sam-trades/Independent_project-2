@@ -10,7 +10,7 @@ This project uses descriptive analysis,which provides a useful overview of Karam
 ## Results
  <img width="996" height="672" alt="Screenshot 2025-09-01 1 09 58 AM" src="https://github.com/user-attachments/assets/b79b651d-3dcd-4f85-8b9e-c9a5ba77a49c" />
 
-## Conclusion
+## Conclusion 
 Analysis reveals low overall yields, far below national potentials, due to droughts and pests.
 
 Districts like Nakapiripirit and Kaabong show the lowest per capita production , indicating acute insecurity.
