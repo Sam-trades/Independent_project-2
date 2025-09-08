@@ -23,6 +23,12 @@ Prioritize Low-Yield Areas
 Crop Diversification
 
 Monitoring Enhancements
+
+## Tableau link
+
+https://public.tableau.com/views/GROUP6TABLEAU_17573185965260/Sub-Countiesdashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+
 ## For more Information
 Send email to the email provided:
 
